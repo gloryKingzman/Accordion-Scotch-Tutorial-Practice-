@@ -1,0 +1,48 @@
+   body {
+            padding: 30px;
+            background: lightblue !important;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .accordion {
+            background: rgb(20, 2, 31);
+            padding: 30px;
+            border-radius: 30px;
+            color: lightblue;
+        }
+
+        .question {
+            border-top: 1px solid #eeeeee;
+            padding: 20px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .question h2 {
+            font-size: 20px;
+            margin: 0;
+            color: #c00c00;
+        }
+
+        .question .glyphicon {
+            position: absolute;
+            right: 20px;
+            top: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+        }
+
+        .answer p {
+            padding: 20px;
+        }
+
+        .answer {
+            
+        }
